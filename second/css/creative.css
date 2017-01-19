@@ -17,7 +17,11 @@ hr {
   max-width: 50px;
 }
 hr.light {
-  border-color: white;
+  /* border-color: white; */
+  border-color: #eee;
+  border-width: 3px;
+  max-width: 50px;
+  /* border: solid #ddd; */
 }
 a {
   -webkit-transition: all 0.35s;
