@@ -58,7 +58,63 @@
     }
 }
 
-.wrapp{color:#fff;position:absolute;top:34%;left:50%;-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-o-transform:translateX(-50%);-webkit-transform:translateX(-50%);transform:translateX(-50%);z-index:2;width:580px;}
+.wrapp{
+color:#fff;
+position:absolute;
+top:34%;
+left:50%;
+-moz-transform:translateX(-50%);
+-ms-transform:translateX(-50%);
+-o-transform:translateX(-50%);
+-webkit-transform:translateX(-50%);
+transform:translateX(-50%);
+z-index:2;
+/* width:580px; */
+}
+
+
+.thumb_overlay_video:before {
+    /* content: "?"; */
+    position: absolute;
+    top: 64%;
+    left: 0;
+    margin-left: 20px;
+    font: 400 72px "FontAwesome";
+    line-height: 72px;
+    margin-top: -100px;
+    text-align: right;
+}
+
+.thumb_overlay_video{
+position:absolute;
+left:0;
+top:0;
+right:0;
+bottom:0;
+opacity:1;
+-moz-transition:0.3s all ease;
+-o-transition:0.3s all ease;
+-webkit-transition:0.3s all ease;
+transition:0.3s all ease;
+color:#fff;
+background:transparent;
+}
+
+.thumb_overlay_video:before{
+/* content:"?"; */
+position:absolute;
+top:64%;left:0;
+right:0;
+font:400 72px "FontAwesome";
+line-height:72px;
+margin-top:-36px;
+text-align:center;
+}
+.lt-ie9 .thumb_overlay_video:before{
+display:none;
+}
+
+.thumb:hover .thumb_overlay{background:rgba(56,199,170,0.2);}.lt-ie9 .thumb:hover .thumb_overlay{background:none;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#3338C7AA', endColorstr='#3338C7AA')";filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3338C7AA',endColorstr='#3338C7AA');zoom:1;}.lt-ie9 .thumb:hover .thumb_overlay:before{display:block;}.thumb:hover img{-moz-transform:scale(1.1);-ms-transform:scale(1.1);-o-transform:scale(1.1);-webkit-transform:scale(1.1);transform:scale(1.1);}@media (max-width: 1690px) {.thumb .wrapp{top:21%;}}@media (min-width: 980px) and (max-width: 1199px) {.thumb_overlay_video:before{top:74%;}.thumb .wrapp{top:17%;}}@media (max-width: 979px) {.thumb .wrapp p,.thumb .wrapp .terms-list dd,.terms-list .thumb .wrapp dd{display:none;}}@media (max-width: 767px) {.thumb .wrapp{top:14%;}.thumb .wrapp h2{font-size:25px;}.thumb_overlay_video:before{font-size:52px;}}@media (max-width: 479px) {.thumb .wrapp h2{display:none;}.thumb_overlay_video:before{top:50%;}}
 
 </style>
 </head>
@@ -98,7 +154,7 @@
 				<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt
 				et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 			</div>
-			<img src="images/page-3_img09.jpg" style="width:50%;" alt="" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/sGbxmsDFVnE">
+			<img src="images/image1.jpg" style="width:50%;" alt="" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/sGbxmsDFVnE">
             
             <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
                 <div class="modal-dialog">
@@ -124,7 +180,7 @@
 <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt
 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 </div>
-<img src="images/page-3_img09.jpg" alt="">
+<img src="images/image1.jpg" alt="">
 <span class="thumb_overlay thumb_overlay_video"></span> 
 </a>
 </section>
@@ -140,9 +196,9 @@ et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullam
 			<div class="wrapp">
 			<!-- <h2>Jess + Robbie Wedding Movie Trailer</h2> -->
 			<h2>[V&iacute;deo 8] To look, to watch, to see como usar</h2>
-            <p>Tr&ecirc;s verbos, tr&ecirc;s formas diferentes de usar, uma s&oacute; parte do corpo realizando os tr&ecirc;s! Assista e entenda melhor o que isso quer dizer.</p>
+            <h2>Tr&ecirc;s verbos, tr&ecirc;s formas diferentes de usar, uma s&oacute; parte do corpo realizando os tr&ecirc;s! Assista e entenda melhor o que isso quer dizer.</h2>
 			</div>
-			<img src="images/page-3_img09.jpg" alt="">
+			<img src="https://img.youtube.com/vi/6IRs0u6QPYs/0.jpg" alt="">
 			<span class="thumb_overlay thumb_overlay_video"></span> 
 			</a>
 
@@ -161,9 +217,9 @@ et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullam
         </div>
     </div>
 
+	<hr>
+	
 
-	
-	
 	
 </div>
 
